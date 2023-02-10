@@ -11,7 +11,7 @@ dependencies:
   - pathlib
   - pip
   - pyprojroot
-  - python=3.4.5
+  - python=3.7
   - pip:
     - pyhere
     
