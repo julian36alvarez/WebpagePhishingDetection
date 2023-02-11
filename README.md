@@ -16,6 +16,7 @@ Webpage Phishing Detection Type of data: tabular Type of problem: binary classif
 ```bash
 conda env create -f environment.yml
 activate webpage_phishing_detection
+conda install numpy scipy matplotlib scikit-learn seaborn
 ```
 
 or 
