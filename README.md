@@ -1,4 +1,4 @@
-# Webpage Phishing Detection 
+# Webpage Phishing Detection
 
 By: ECI.
 
@@ -10,6 +10,11 @@ Webpage Phishing Detection Type of data: tabular Type of problem: binary classif
 
 - [Anaconda](https://www.anaconda.com/download/) >=4.x
 - Optional [Mamba](https://mamba.readthedocs.io/en/latest/)
+- Run:
+
+```bash
+$ conda install numpy scipy matplotlib scikit-learn seaborn
+```
 
 ## Create environment
 
@@ -18,7 +23,7 @@ conda env create -f environment.yml
 activate webpage_phishing_detection
 ```
 
-or 
+or
 
 ```bash
 mamba env create -f environment.yml
@@ -34,7 +39,7 @@ activate webpage_phishing_detection
         │
         ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
         │                         the creator's initials, and a short `-` delimited description, e.g.
-        │                         
+        │
         │
         ├── .gitignore         <- Files to ignore by `git`.
         │
@@ -43,4 +48,5 @@ activate webpage_phishing_detection
         └── README.md          <- The top-level README for developers using this project.
 
 ---
+
 Project created for demonstration
