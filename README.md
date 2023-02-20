@@ -10,23 +10,21 @@ Webpage Phishing Detection Type of data: tabular Type of problem: binary classif
 
 - [Anaconda](https://www.anaconda.com/download/) >=4.x
 - Optional [Mamba](https://mamba.readthedocs.io/en/latest/)
-- Run:
-
 
 ## Create environment
 
 ```bash
 conda env create -f environment.yml
 activate webpage_phishing_detection
+conda install numpy scipy matplotlib scikit-learn seaborn
 ```
-```bash
-$ conda install numpy scipy matplotlib scikit-learn seaborn
-```
+
 or
 
 ```bash
 mamba env create -f environment.yml
 activate webpage_phishing_detection
+conda install numpy scipy matplotlib scikit-learn seaborn
 ```
 
 ## Project organization
